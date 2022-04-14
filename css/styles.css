@@ -13,6 +13,11 @@
   transition: 0.2s;
 }
 
+.tedx-badge-red {
+  background: #f9322c;
+  color: #fff;
+}
+
 .tedx-btn:hover {
   box-shadow: inset 6px 0 0 0 #000;
   background-color: #f9322c;
@@ -222,7 +227,7 @@ section.about {
   background-color: #000;
   padding-top: 50px;
   padding-bottom: 50px;
-  height: 130vh;
+  height: 1200px;
 }
 
 .tedx-events-row {
@@ -251,7 +256,7 @@ section.about {
 
 
 .tedx-events-card-background {
-  background: linear-gradient(0deg, #000, transparent 95%);
+  background: linear-gradient(0deg, #000, transparent 100%);
 }
 
 /* event card elements */
@@ -294,8 +299,9 @@ section.about {
 }
 
 .tedx-events-img {
-
-  overflow: hidden;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
 }
 
 /* Mobile behaviour */
@@ -305,6 +311,7 @@ section.about {
   margin-right: 20px;
   margin-bottom: 50px;
   cursor: grab;
+
 }
 
 /* Section contact */
@@ -397,6 +404,13 @@ section.about {
   margin-left: 50px;
 }
 
+/* Disable fade up animation on mobile */
+@media screen and (max-width: 480px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
 /* PC display */
 @media only screen and (min-width: 600px) {
   .tedx-halo-circle {
@@ -446,7 +460,6 @@ section.about {
     width: 390px;
     height: 220px;
     box-sizing: border-box;
-    margin-left: 15px;
     margin-top: 0;
     margin-bottom: 0px;
 
@@ -457,7 +470,7 @@ section.about {
   }
 
   .tedx-events-button {
-    margin-top: 30px !important;
+    margin-top: 50px !important;
   }
 
 }
