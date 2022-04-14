@@ -222,24 +222,25 @@ section.about {
   background-color: #000;
   padding-top: 50px;
   padding-bottom: 50px;
-  height: 80vh;
+  height: 130vh;
 }
 
 .tedx-events-row {
-  overflow-x: scroll;
-  height: 40vh;
-  position: relative;
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+
+  margin-right: 30px;
+  margin-top: 0px !important;
 }
 
 .tedx-events-ul {
   display: flex;
   list-style: none;
+  padding-left: 0;
 }
 
-.tedx-events-li {
-  min-width: 90%;
-  box-sizing: border-box;
-}
+
 
 .tedx-events-card {
   height: 100%;
@@ -248,13 +249,62 @@ section.about {
   display: block;
 }
 
-.tedx-event-box {
-  padding-right: 3rem;
+
+.tedx-events-card-background {
+  background: linear-gradient(0deg, #000, transparent 95%);
+}
+
+/* event card elements */
+.tedx-events-date {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  display: inline;
+}
+
+.tedx-events-tag {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #f9322c;
+  display: inline;
+}
+
+.tedx-events-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.tedx-events-card-dash {
+  height: 5px;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  background: #f9322c;
+  transition: width .3s ease-out;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5.2vw), calc(100% - 5.5vw) 100%, 0 100%);
+}
+
+.tedx-events-card-background:hover .tedx-events-card-dash {
+  width: 80%;
+}
+
+.tedx-events-img {
+
+  overflow: hidden;
+}
+
+/* Mobile behaviour */
+.tedx-events-li {
+  min-width: 80%;
   box-sizing: border-box;
-  scroll-behavior: auto !important;
-  Width: 390px !important;
-  Height: 220px !important;
-  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  cursor: grab;
 }
 
 /* Section contact */
@@ -385,6 +435,29 @@ section.about {
   .tedx-section-title {
     font-size: 38px !important;
 
+  }
+
+  #events {
+    height: 700px;
+  }
+
+  .tedx-events-li {
+    min-width: auto;
+    width: 390px;
+    height: 220px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0px;
+
+  }
+
+  .tedx-events-row {
+    margin-top: 50px !important;
+  }
+
+  .tedx-events-button {
+    margin-top: 30px !important;
   }
 
 }
