@@ -51,7 +51,11 @@
   background-color: #ffff;
 }
 
-
+/* corner cut effect */
+.tedx-cut-corner {
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%, 0% 90%, 0% 10%);
+  clip-path: polygon(10% 0%, 90% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%, 0% 90%, 0% 10%);
+}
 
 /* Back text */
 .tedx-back-text {
@@ -366,6 +370,53 @@ section.about {
 
 .tedx-support-dash {
   left: 0;
+}
+
+/* Section members */
+
+#members {
+  padding-top: 8rem;
+}
+
+.tedx-members-tabs {
+  text-align: center;
+}
+
+.tedx-members-container {
+  position: relative;
+  height: 400px
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0 rgb(51 51 51 / 30%);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Section contact */
