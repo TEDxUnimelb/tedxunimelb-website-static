@@ -387,6 +387,13 @@ section.about {
   height: 400px
 }
 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+}
+
+/* Swipers */
 .swiper {
   width: 100%;
   height: 100%;
@@ -395,7 +402,6 @@ section.about {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;

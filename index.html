@@ -5,9 +5,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.84.0">
+  <meta name="author" content="Kevin Zhou">
   <title>TEDxUnimelb</title>
+  <!-- 
+    TEDxUnimelb Official Website:
+    This project started on 28 March 2022
+    Github page: https://github.com/Kevin-Zhouu/tedxunimelb-website
+
+    Tech used for frontend:
+    -Bootstrap
+    -Swiper.js
+    -Particles.js
+    -aos.js
+    -typed.js
+    -fontawesome
+    -Reactjs
+
+    Tech used for backend:
+    -PHP(Laravel)
+    -MySQL
+    -Redis
+
+    Website Creator:
+    Kevin Zhou https://www.linkedin.com/in/kevin-zhou-636a99207/
+
+    Authors/Editors: (Please add your name below if you have contributed to this project)
+    Kevin Zhou https://www.linkedin.com/in/kevin-zhou-636a99207/
+    ...
+
+    If you used our website as a startup template, please mention the authors above in your project 
+
+   -->
 
 
 
@@ -18,7 +46,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-  <!-- Custom styles for this template -->
+  <!-- Custom styles -->
   <link href="css/cover.css" rel="stylesheet">
 
   <link href="css/styles.css" rel="stylesheet">
@@ -288,16 +316,22 @@
     </section>
 
     <section id="members" class="members" data-aos="fade-up">
+      <div id="particles-js">
 
+      </div>
       <div class="container aos-init aos-animate" data-aos="fade-up">
 
         <header class="section-header">
           <h2>members</h2>
-          <p>Our Team Members</p>
+          <p>Our hard working team</p>
         </header>
+
 
         <div class=" gy-4 tedx-members-tabs text-center">
           <div class="tedx-members-container">
+
+
+            <!-- Swiper version of team -->
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -306,8 +340,15 @@
                 <div class="swiper-slide">
                   <div class="tedx-members-member-card"> </div>
                 </div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">
+                  <div class="tedx-members-member-card"> </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tedx-members-member-card"> </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tedx-members-member-card"> </div>
+                </div>
               </div>
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
@@ -484,6 +525,11 @@
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+
+  <!-- Team  -->
+
+  <script src="js/team/particles.js"></script>
+  <script src="js/app.js"></script>
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
