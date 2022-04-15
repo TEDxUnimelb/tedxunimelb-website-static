@@ -51,6 +51,8 @@
   background-color: #ffff;
 }
 
+
+
 /* Back text */
 .tedx-back-text {
   height: 100%;
@@ -318,9 +320,31 @@ section.about {
 #conference {
   background-color: #000;
   padding-bottom: 30px;
+  height: 600px;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
 }
 
 /* Section support */
+#support {
+  padding-top: 8rem;
+}
+
+.tedx-support-links {
+  margin-top: 10px;
+}
+
+.tedx-support-link {
+  box-shadow: 1px 1px 4px 0 rgb(51 51 51 / 30%);
+  margin-left: 5%;
+  margin-right: 5%;
+  cursor: grab;
+}
+
 /* Section contact */
 .mt-6 {
   margin-top: 1.5rem !important;
