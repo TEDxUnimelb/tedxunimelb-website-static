@@ -314,6 +314,13 @@ section.about {
 
 }
 
+/* Section conference */
+#conference {
+  background-color: #000;
+  padding-bottom: 30px;
+}
+
+/* Section support */
 /* Section contact */
 .mt-6 {
   margin-top: 1.5rem !important;
