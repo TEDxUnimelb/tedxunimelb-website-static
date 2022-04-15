@@ -387,7 +387,7 @@ section.about {
   height: 400px
 }
 
-#particles-js {
+.particles-js {
   position: absolute;
   width: 100%;
   height: 600px;
