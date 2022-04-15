@@ -326,7 +326,16 @@ section.about {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
   padding-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+
+  /* Fixing zooming issues on mobile devices*/
+  #conference {
+    background-attachment: scroll;
+  }
 }
 
 /* Section support */
@@ -343,6 +352,10 @@ section.about {
   margin-left: 5%;
   margin-right: 5%;
   cursor: grab;
+}
+
+.tedx-support-dash {
+  left: 0;
 }
 
 /* Section contact */
