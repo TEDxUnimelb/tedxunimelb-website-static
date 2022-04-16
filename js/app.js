@@ -159,7 +159,7 @@ particlesJS('particles-js-events',
                 "value": members.length,
                 "density": {
                     "enable": true,
-                    "value_area": 250
+                    "value_area": 200
                 }
             },
             "color": {
@@ -211,12 +211,12 @@ particlesJS('particles-js-events',
                 "enable": true,
                 "speed": 2,
                 "direction": "none",
-                "random": false,
+                "random": true,
                 "straight": false,
                 "out_mode": "out",
                 "attract": {
                     "enable": false,
-                    "rotateX": 600,
+                    "rotateX": 3600,
                     "rotateY": 1200
                 }
             }
