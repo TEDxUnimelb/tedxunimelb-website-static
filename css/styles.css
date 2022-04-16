@@ -16,7 +16,15 @@
 .tedx-badge-red {
   background: #f9322c;
   color: #fff;
-  font-weight: 700;
+}
+.tedx-text-red{
+  color:#f9322c !important;
+}
+.tedx-text-lightred{
+  color:#fffafa !important;
+}
+.tedx-background-red{
+  background-color:#f9322c !important;
 }
 
 .tedx-btn:hover {
@@ -446,6 +454,22 @@ section.about {
   align-items: center;
 }
 
+.tedx-swiper-button{
+  width: 30px !important;
+  height: 30px !important;
+  background: #f9322c !important;
+  color: #fffafa !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 10px !important;
+  box-shadow: 0px 0 20px rgb(0 0 0 / 10%);
+}
 
 
 .tedx-members-member-card {
@@ -524,6 +548,8 @@ margin-left: auto;
   left: 0;
   right: 0;
 }
+
+
 /* Section contact */
 .mt-6 {
   margin-top: 1.5rem !important;
