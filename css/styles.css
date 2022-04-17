@@ -132,9 +132,8 @@
 
 .tedx-cover-eventbox {
 
-  margin-top: 25vh;
+  margin-top: 15vh;
 }
-
 
 #tedx-cover-video-wrap {
   position: absolute;
@@ -146,6 +145,7 @@
   overflow: hidden;
   border: none;
   z-index: 1;
+  filter: saturate(100%) contrast(100%) brightness(50%);
 }
 
 #tedx-cover-video {
@@ -159,7 +159,17 @@
   z-index: 0;
   pointer-events: none
 }
+.tedx-cover-subtitle{
+  margin: 0 0 3.5rem;
+  text-shadow: 0 0 0.75em rgb(0 0 0 / 50%);
+}
 
+.tedx-cover-title{
+  color: #ece8e1;
+  font-size: 60px;
+  font-weight: bold; 
+  line-height: 1.2;
+}
 .tedx-header {
   z-index: 3;
 }
@@ -197,11 +207,12 @@
 
 /* Section About */
 section.about {
-  margin-top: 50px;
+  margin-top: 150px;
   overflow: hidden;
   position: relative;
   padding-bottom: 50px;
   z-index: 3;
+  min-height: 200px;
 }
 
 .tedx-about-image {
@@ -486,6 +497,9 @@ section.about {
   text-align: center;
   transition: 0.3s;
 }
+.tedx-members-member-card:hover {
+  box-shadow: 0px 0 20px rgb(0 0 0 / 20%);
+}
 .tedx-members-bar{
   width: 80px;
   height: 4px;
@@ -538,7 +552,7 @@ text-align: center;
   font-weight: normal;
   font-size: 14px;
   color: #7a7a7a;
-  margin-top:20px;
+  margin-top:10px;
 }
 .tedx-members-card-button{
 top: 230px;
@@ -675,11 +689,11 @@ margin-left: auto;
 
   .tedx-cover-eventbox {
 
-    margin-top: 30vh;
+    margin-top: 20vh;
   }
 
   section.about {
-    margin-top: 130px;
+    margin-top: 170px;
   }
 
   .tedx-section-title {
