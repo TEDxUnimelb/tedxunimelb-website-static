@@ -17,7 +17,7 @@ HTML, CSS, JS<br><br>
 -typed.js<br>
 -fontawesome<br>
 ## Preview
-**Demo:** http://dev.tedxunimelb.com
+**Demo:** https://tedxunimelb.com
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/68810460/163708280-398465de-e354-4697-920c-d854e9b91c90.png)
