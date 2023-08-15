@@ -55,13 +55,30 @@
 
     Authors/Editors: (Please add your name below if you have contributed to this project)
     Kevin Zhou https://www.linkedin.com/in/kevin-zhou-636a99207/
+    Angus Chan https://www.linkedin.com/in/angus-chan-4282a526b
     ...
 
     If you used our website as a startup template, please mention the authors above in your project 
 
    -->
 
-
+  <!-- Structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "#",
+      "logo": "img/tedxunimelb-logo-white-min"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Melbourne, Australia",
+        "addressRegion": "VIC",
+        "postalCode": "3010",
+        "streetAddress": "University of Melbourne, Parkville"
+      },
+      "email": "TEDxUniMelb@gmail.com"
+    }
+  </script>
 
   <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -96,7 +113,7 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto tedx-header">
         <div>
-          <h3 class="float-md-start mb-0"><img class="tedx-logo" src="img/tedxunimelb-logo-white-min.png" /></h3>
+          <h3 class="float-md-start mb-0"><img class="tedx-logo" src="img/tedxunimelb-logo-white-min.png" alt="TedxUniMelb"></h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="about.html">About</a>
@@ -182,8 +199,9 @@
               </h3>
               <div class="tedx-section-text tedx-events-row">
                 <div class="row tedx-events-ul">
+                  <!-- upcoming banner
                   <div class="col-xs-1 col-3 tedx-events-li" data-aos="fade-up" data-aos-delay="100">
-                    <a href='https://www.facebook.com/photo.php?fbid=628245692650960&set=pb.100063966040916.-2207520000.&type=3'>
+                    <a href='#'>
                     <div class="card bg-dark text-white border-0">
                       <img src="img/events/the-edge.jpeg" class="card-img tedx-events-img" alt="...">
 
@@ -203,11 +221,33 @@
                     </div>
                   </a>
                   </div>
+                -->
+                  <div class="col-xs-1 col-3 tedx-events-li" data-aos="fade-up" data-aos-delay="100">
+                    <a href='https://www.facebook.com/photo/?fbid=656964336445762&set=pcb.656969119778617'>
+                    <div class="card bg-dark text-white border-0">
+                      <img src="img/events/the-edge.jpeg" class="card-img tedx-events-img" alt="TedxUniMelb 2023 conference- The EDGE">
+
+                      <div class="card-img-overlay tedx-events-card-background">
+                        <span class="tedx-events-card-dash"></span>
+                        <div style="bottom: 0; position: absolute;">
+
+                          <p class="tedx-events-date">26-05-2023 Friday</p>
+                          <p class="tedx-events-tag">
+                            <span class="badge bg-dark">Past</span>
+                          </p>
+                          <h5 class="card-title tedx-events-title">2023 Conference - The EDGE</h5>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </a>
+                  </div>
 
                   <div class="col-xs-1 col-3 tedx-events-li" data-aos="fade-up" data-aos-delay="200">
                     <a href="https://www.facebook.com/photo.php?fbid=644970770978452&set=pb.100063966040916.-2207520000.&type=3">
                     <div class="card bg-dark text-white border-0">
-                      <img src="img//events/public-speaking-showcase.jpeg" class="card-img tedx-events-img" alt="...">
+                      <img src="img//events/public-speaking-showcase.jpeg" class="card-img tedx-events-img" alt="TedxUnimelb public speaking showcase">
 
                       <div class="card-img-overlay tedx-events-card-background">
                         <span class="tedx-events-card-dash"></span>
@@ -229,7 +269,7 @@
                   <div class="col-xs-1 col-3 tedx-events-li" data-aos="fade-up" data-aos-delay="300">
                     <a href="https://www.facebook.com/photo.php?fbid=640793234729539&set=pb.100063966040916.-2207520000.&type=3">
                     <div class="card bg-dark text-white border-0">
-                      <img src="img//events/public-speaking-s2.jpeg" class="card-img tedx-events-img" alt="...">
+                      <img src="img//events/public-speaking-s2.jpeg" class="card-img tedx-events-img" alt="TedxUnimelb public speaking events">
 
                       <div class="card-img-overlay tedx-events-card-background">
                         <span class="tedx-events-card-dash"></span>
@@ -262,7 +302,7 @@
       </div>
     </section>
 
-    <section id="conference" class="conference" style="background-image: url(img/ted_membership-min.jpg);">
+    <section id="conference" class="conference" style="background-image: url(img/events/the-edge-opening.jpg);">
       <div class="container" style="z-index:5">
         <div class="row gx-0">
 
@@ -275,7 +315,7 @@
               <p class="tedx-section-text" style="color:#fff">
                 Annual conference of TEDxUnimelb, the most important event of the year!</p>
               <div class="text-start mt-6"> <button type="button" class="tedx-btn"
-                  onclick="location.href='https://fb.me/e/DGPJzBqD'">Sign Up</button></div>
+                  onclick="location.href='https://www.facebook.com/photo/?fbid=656964336445762&set=pcb.656969119778617'">Gallery</button></div>
             </div>
           </div>
 
@@ -301,7 +341,7 @@
             <a href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/7637/" style="text-decoration:none;color:white" target="_blank">
             <div class="tedx-support-link">
               <div class="card bg-dark text-white border-0">
-                <img src="img/ted_membership-min.jpg" class="card-img tedx-events-img" alt="...">
+                <img src="img/ted_membership-min.jpg" class="card-img tedx-events-img">
 
                 <div class="card-img-overlay tedx-events-card-background">
                   <span class="tedx-events-card-dash tedx-support-dash"></span>
@@ -323,7 +363,7 @@
             <a href='https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/7637/' style="text-decoration:none;color:white" target="_blank">
             <div class="tedx-support-link ">
               <div class="card bg-dark text-white border-0">
-                <img src="img/Amy-min.JPG" class="card-img tedx-events-img" alt="...">
+                <img src="img/Amy-min.JPG" class="card-img tedx-events-img">
 
                 <div class="card-img-overlay tedx-events-card-background">
                   <span class="tedx-events-card-dash  tedx-support-dash"></span>
@@ -416,7 +456,7 @@
                       <p class="tedx-members-card-position">AirTree Investment Manager</p>
                     </div>
                     <div class="tedx-members-card-button">
-                      <a href="https://www.airtree.vc/team/sachin-shah" target="_blank" class="tedx-btn-rounded" type="submit"><i class="fa-solid fa-paper-plane"></i></a>
+                      <a href="https://au.linkedin.com/company/the-sachin-and-adam-show" target="_blank" class="tedx-btn-rounded" type="submit"><i class="fa-solid fa-paper-plane"></i></a>
                     </div>
                   </div>
                 </div>
