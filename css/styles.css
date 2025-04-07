@@ -654,6 +654,14 @@ margin-left: auto;
   margin-left: 50px;
 }
 
+/* Footer */
+.tedx-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #f9322c;
+  margin-top: 10px;
+}
+
 /* Disable fade up animation on mobile */
 @media screen and (max-width: 480px) {
   [data-aos-delay] {
